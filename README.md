@@ -53,4 +53,4 @@ Column schemas are documented in the markdown cells at the top of each notebook.
 2. Run `nb2-simulator-calibration.ipynb` end-to-end to obtain `theta_OCC* = 1.27`
 3. Run `nb3-scenario-evaluation.ipynb` with 5 seeds × 21 days to reproduce Table 1
 
-Expected runtime: < 2 hours per scenario on a standard workstation (32 GB RAM).
+Expected runtime: ~2 min per scenario on the experimental machine (Intel Xeon @ 2.20 GHz, 4 vCPUs, 16 GB RAM), parallelized across 4 workers. Full 22-scenario suite completes in ~35 min.
